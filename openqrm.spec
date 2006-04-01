@@ -1,5 +1,6 @@
 %define	_date	20060208
 Summary:	Data Center Management Platform
+Summary(pl):	Platforma do zarz±dzania centrum informacji
 Name:		openqrm
 Version:	2.1
 Release:	0.1
@@ -15,6 +16,13 @@ openQRM is an open source systems management platform which integrates
 with existing components in enterprise data centers. openQRM is
 derived from a proven commercial product and distributed under a
 modified Mozilla Public License.
+
+%description -l pl
+openQRM to maj±ca otwarte ¼ród³a platforma zarz±dzania systemami
+integruj±ca siê z istniej±cymi komponentami w centrach informacji
+klasy enterprise. openQRM wywodzi siê ze sprawdzonego komercyjnego
+produktu i jest rozprowadzane na zmodyfikowanej licencji Mozilla
+Public License.
 
 %prep
 %setup -q -n %{name}-%{version}_DATE%{_date}-123420
