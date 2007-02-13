@@ -1,6 +1,6 @@
 %define	_date	20060208
 Summary:	Data Center Management Platform
-Summary(pl.UTF-8):   Platforma do zarządzania centrum informacji
+Summary(pl.UTF-8):	Platforma do zarządzania centrum informacji
 Name:		openqrm
 Version:	2.1
 Release:	0.1
